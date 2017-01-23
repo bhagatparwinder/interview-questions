@@ -18,7 +18,14 @@ A: The term **DOCTYPE** tells the browser which type of HTML is used on a webpag
 See example:
 
 For HTML 4.01
+
 ```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> ```
 
 For HTML5
+
 ```<!DOCTYPE HTML> ```
+
+####Q: What are some new HTML5 markup elements?
+A: HTML5 introduced a lot of new tags. Some of them are:
+
+```<article>, <aside>, <bdi>, <command>, <details>, <figure>, <figcaption>, <summary>, <header>, <footer>, <hgroup>, <mark>, <meter>, <nav>, <progress>, <ruby>, <rt>, <section>, <time>, and <wpr>```
