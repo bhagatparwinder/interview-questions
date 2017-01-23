@@ -29,3 +29,14 @@ For HTML5
 A: HTML5 introduced a lot of new tags. Some of them are:
 
 ```<article>, <aside>, <bdi>, <command>, <details>, <figure>, <figcaption>, <summary>, <header>, <footer>, <hgroup>, <mark>, <meter>, <nav>, <progress>, <ruby>, <rt>, <section>, <time>, and <wpr>```
+
+####Q: What is data-* attribute?
+A: Back in the old XHTML/HTML4 days, developers had few options when storing arbitrary data associated with the DOM. Fortunately, HTML5 introduces custom data attributes. You can use any lowercase name prefixed with data-, e.g.
+
+```<div class="user-info" data-user="parwinder" data-identifier="u-12345" data-usertype="cool"></div>```
+
+P.S. The * may be replaced by any name following the production rule of xml names with the following restrictions:
+
+* the name must not start with xml, whatever case is used for these letters;
+* the name must not contain any semicolon (U+003A);
+* the name must not contain capital A to Z letters.
