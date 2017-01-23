@@ -8,3 +8,17 @@
 * Javascript
 * jQuery
 
+###HTML
+####Q: What is the difference between HTML elements and tags?
+A: HTML elements communicate to the browser how to render text. When surrounded by angular brackets **<>** they form HTML tags. For the most part, tags come in pairs and surround text.
+
+####Q: What does DOCTYPE mean?
+A: The term **DOCTYPE** tells the browser which type of HTML is used on a webpage. In turn, the browsers use **DOCTYPE** to determine how to render a page. Failing to use **DOCTYPE** or using a wrong **DOCTYPE** may load your page in Quirks Mode. 
+
+See example:
+
+For HTML 4.01
+```<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> ```
+
+For HTML5
+```<!DOCTYPE HTML> ```
