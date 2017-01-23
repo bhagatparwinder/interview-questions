@@ -60,7 +60,7 @@ The difference between localStorage and sessionStorage involves the lifetime and
 
 Of the two, **localStorage** is permanent and website-specific whereas **sessionStorage** only lasts as long as the duration of the longest open tab.
 
-Both forms of storage are scoped to the document origin so that documents with different origins will never share the stored objects. But sessionStorage is also scoped on a per-window basis. If a user has two browser tabs displaying documents from the same origin, those two tabs have separate sessionStorage data: the scripts running in one tab cannot read or overwrite the data written by scripts in the other tab, even if both tabs are visiting exactly the same page and are running exactly the same scripts.
+Both forms of storage are scoped to the document origin so that documents with different origins will never share the stored objects. But **sessionStorage** is also scoped on a per-window basis. If a user has two browser tabs displaying documents from the same origin, those two tabs have separate **sessionStorage** data: the scripts running in one tab cannot read or overwrite the data written by scripts in the other tab, even if both tabs are visiting exactly the same page and are running exactly the same scripts.
 
 ####Q: What are Web Workers?
 A: Web Workers do all the computationally expensive tasks without interrupting the user interface and typically run on separate threads.
@@ -69,3 +69,8 @@ Web Workers allow for long-running scripts that are not interrupted by scripts t
 
 Web workers at long last bring multi-threading to JavaScript.
 
+####Q: What is the difference between SVG and HTML5 Canvas?
+A: There's a difference in what they are, and what they do for you.
+
+* SVG is a document format for scalable vector graphics. SVG is a language for describing 2D graphics in XML.
+* Canvas is a javascript API for drawing vector graphics to a bitmap of a specific size. Canvas draws 2D graphics, on the fly (with a JavaScript).
